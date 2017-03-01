@@ -1,0 +1,19 @@
+
+Solution design:
+
+React classes hierarchy:
+	App
+	 |
+	 |-Loader
+	 |    |
+	 |    |-Signin
+	 |
+	 |-Map
+	    |
+	    |-DonorForm
+	    |
+	    |-DonorView
+	
+
+Technologies:
+Used technologies specified in Code/package.json and Code/bower.json files.

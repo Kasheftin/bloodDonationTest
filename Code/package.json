@@ -1,0 +1,21 @@
+{
+  "name": "BloodDonationTest",
+  "author": "Alexey Kuznetsov <kasheftin@gmail.com> (http://rag.lt)",
+  "dependencies": {
+    "babel": "^6.5.2",
+    "babel-cli": "^6.11.4",
+    "body-parser": "^1.15.2",
+    "chai": "^3.5.0",
+    "eslint": "^3.2.2",
+    "eslint-plugin-react": "^6.0.0",
+    "express": "^4.14.0",
+    "extend": "^3.0.0",
+    "mongoose": "^4.5.8",
+    "path": "^0.12.7",
+    "socket.io": "^1.4.8"
+  },
+  "scripts": {
+    "test": "mocha tests --colors --reporter nyan",
+    "start": "node server"
+  }
+}
